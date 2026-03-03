@@ -1,0 +1,200 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "2b34ffbe94b89a28b100",
+  "position": {
+    "x": 10.428583552575745,
+    "y": 0,
+    "z": 0,
+    "height": 653.5245692947467,
+    "width": 629.19120767206994,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "map",
+    "query": {
+      "queryState": {
+        "Size": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+                    }
+                  },
+                  "Property": "Budget total max"
+                }
+              },
+              "queryRef": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.Budget total max",
+              "nativeQueryRef": "Budget max",
+              "displayName": "Budget max"
+            }
+          ],
+          "fieldParameters": [
+            {
+              "parameterExpr": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Choix de l'analyse"
+                    }
+                  },
+                  "Property": "Choix de l'analyse"
+                }
+              },
+              "index": 0,
+              "length": 1
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+                    }
+                  },
+                  "Property": "Latitude"
+                }
+              },
+              "queryRef": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.Latitude",
+              "nativeQueryRef": "Latitude"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+                    }
+                  },
+                  "Property": "Longitude"
+                }
+              },
+              "queryRef": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.Longitude",
+              "nativeQueryRef": "Longitude"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "mapStyles": [
+        {
+          "properties": {
+            "mapTheme": {
+              "expr": {
+                "Literal": {
+                  "Value": "'canvasLight'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "heatMap": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "bubbles": [
+        {
+          "properties": {
+            "bubbleSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10L"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Nombre de chantiers et budget maximum'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "ae14c6ee604e02d29bae",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+              }
+            },
+            "Property": "Longitude"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "5dace2d1354480321614",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+              }
+            },
+            "Property": "Latitude"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

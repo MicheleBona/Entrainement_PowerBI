@@ -1,0 +1,23 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: fr-CA
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["bulletins-des-previsions-de-marches-de-consultations-sncf-reseau","mapping_domaines"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table bulletins-des-previsions-de-marches-de-consultations-sncf-reseau
+ref table DateTableTemplate_03f6f65a-1b86-4283-810f-551fed8d3474
+ref table LocalDateTable_23303c39-6a2a-412f-8545-662ece778920
+ref table LocalDateTable_49d0adbc-5e89-4889-b5e5-94e6abd1a87c
+ref table mapping_domaines
+ref table 'Choix de l''analyse'
+
+ref cultureInfo fr-FR
+

@@ -1,0 +1,14 @@
+relationship 3c7963db-2a70-4423-b145-9e8881f3f9b8
+	joinOnDateBehavior: datePartOnly
+	fromColumn: bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.'Envoi du dossier de consultation'
+	toColumn: LocalDateTable_23303c39-6a2a-412f-8545-662ece778920.Date
+
+relationship 8b9ea118-9c95-4a1c-95a1-e61d6e1f48a6
+	joinOnDateBehavior: datePartOnly
+	fromColumn: bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.'Date de début souhaitée'
+	toColumn: LocalDateTable_49d0adbc-5e89-4889-b5e5-94e6abd1a87c.Date
+
+relationship AutoDetected_15d908c5-49c7-42ab-9491-81302627aafb
+	fromColumn: bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.'Famille d''achat'
+	toColumn: mapping_domaines.'Famille d''achat '
+

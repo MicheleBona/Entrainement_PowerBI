@@ -1,0 +1,174 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "3f9210eed8a2b4e02c96",
+  "position": {
+    "x": 252.22222222222223,
+    "y": 11.111111111111111,
+    "z": 0,
+    "height": 708.88888888888891,
+    "width": 1027.7777777777778,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "areaChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+                    }
+                  },
+                  "Property": "Régions"
+                }
+              },
+              "queryRef": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.Régions",
+              "nativeQueryRef": "Régions",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+                        }
+                      },
+                      "Property": "Cout_max"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.Cout_max (€))",
+              "nativeQueryRef": "Dépenses maximum estimées",
+              "displayName": "Dépenses maximum estimées"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+                        }
+                      },
+                      "Property": "Cout_min"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.Cout_min (€))",
+              "nativeQueryRef": "Dépenses minimales estimées",
+              "displayName": "Dépenses minimales estimées"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+                      }
+                    },
+                    "Property": "Cout_max"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Écart des dépenses estimées par Régions'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "f76fa59800aa457be070",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+              }
+            },
+            "Property": "Cout_max"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "b",
+              "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 3,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "b"
+                        }
+                      },
+                      "Property": "Cout_max"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "100000000L"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  }
+}

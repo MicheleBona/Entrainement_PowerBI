@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "bcdf0d4d0b73328d444e",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 2000,
+    "height": 280.41302441370334,
+    "width": 213.2065970748819,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+                    }
+                  },
+                  "Property": "Nombre de chantiers"
+                }
+              },
+              "queryRef": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.Mesure",
+              "nativeQueryRef": "Nombre de chantiers"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+                  }
+                },
+                "Property": "Nombre de chantiers"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "label": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

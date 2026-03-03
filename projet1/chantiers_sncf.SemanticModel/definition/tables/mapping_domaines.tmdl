@@ -1,0 +1,32 @@
+table mapping_domaines
+	lineageTag: 4bf95b09-d20c-4ab7-a858-b548cd5a61a5
+
+	column 'Famille d''achat '
+		dataType: string
+		lineageTag: 398fa14d-6935-404b-b59f-1d6fac78e25d
+		summarizeBy: none
+		sourceColumn: "Famille d'achat "
+
+		annotation SummarizationSetBy = Automatic
+
+	column Domaine
+		dataType: string
+		lineageTag: 0fb4ad78-493e-4f6b-82e3-3c1c05d3253f
+		summarizeBy: none
+		sourceColumn: Domaine
+
+		annotation SummarizationSetBy = Automatic
+
+	partition mapping_domaines = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("nZRNbtswEIWvQnjtBEEW3SsGYwiwo8JSskmyoOWpMABNuZyhEOQGuUZ3OocuVlK2fhatZWcjQZj3Dd8MH/T6OntJYikyqyrlPmbz2UuJIN7c3d39D/GgtFbEs/f5SbZRqGlKFHqBJaBOkbrDobQstsClOUOn8fIpWsVplMXJ08hSioVRGkkxlqYDs6bWTZ2X+3+gj6WzBtlZoO/gC7XV3j37LsAXdsjkSi6S9XWuO2gjUxk9X2+7/6K5sE1N4E/ulPtyixq5qS9rFT9m4xQ0XwZsMVxTKA+6kVEho5W8CsgVg1F4HPK/mNSQs8U8TCB2INiqPLg/xyzV57lyEt0k2WjGxFVWFUNMl01tPLbACnULRHtvtAD/ZLFUwfsAH7+7EDd/GIOMWm6t0IQZTQ7eOonYEPuY3/qw8wSafXh1BcRIdDy4F4gsfpig5W+HhxajsLM05LcNwDnopy+xEsGyDkt34UWnTHo2NkW7GDusNAVbYQ5jPtxNeyidat9rMNZyv+ypDtIUaPr5SsfofyoFXEAmnXYufvUZ9bvYObpZb6YavP8F", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Famille d'achat " = _t, Domaine = _t]),
+				    #"Type modifié" = Table.TransformColumnTypes(Source,{{"Famille d'achat ", type text}, {"Domaine", type text}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

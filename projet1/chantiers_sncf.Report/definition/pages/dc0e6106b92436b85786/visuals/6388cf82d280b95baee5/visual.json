@@ -1,0 +1,90 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "6388cf82d280b95baee5",
+  "position": {
+    "x": 639.61979122464561,
+    "y": 8.1111205408922462,
+    "z": 1,
+    "height": 276.9368298961781,
+    "width": 245.65107923845088,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "listSlicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+                    }
+                  },
+                  "Property": "Domaine"
+                }
+              },
+              "queryRef": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.Domaine",
+              "nativeQueryRef": "Domaine",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "general": [
+        {
+          "properties": {}
+        }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "selectAllCheckboxEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "data": [
+        {
+          "properties": {
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "6fb0f65d976033b97499",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+              }
+            },
+            "Property": "Domaine"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

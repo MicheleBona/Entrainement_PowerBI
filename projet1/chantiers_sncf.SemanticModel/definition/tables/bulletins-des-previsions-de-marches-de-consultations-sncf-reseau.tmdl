@@ -1,0 +1,234 @@
+table bulletins-des-previsions-de-marches-de-consultations-sncf-reseau
+	lineageTag: 4223b8f9-dac4-40a3-98d0-2642eb44c3f4
+
+	measure 'Nombre de chantiers' = COUNTROWS('bulletins-des-previsions-de-marches-de-consultations-sncf-reseau')
+		formatString: 0
+		lineageTag: 1e0b5f7c-0788-429d-bee2-ac985051dfaa
+
+	measure 'Budget total max' = SUM('bulletins-des-previsions-de-marches-de-consultations-sncf-reseau'[Cout_max])
+		formatString: #,0\ "€";-#,0\ "€";#,0\ "€"
+		lineageTag: c99d19a2-9767-473f-859f-33df1654eaf6
+
+	column 'Entité Achats '
+		dataType: string
+		lineageTag: 32ac37d8-93e0-41be-a49c-fd7c57242921
+		summarizeBy: none
+		sourceColumn: "Entité Achats "
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'N° Dossier'
+		dataType: string
+		lineageTag: bb1eadb9-4303-4f8b-bbc3-3a0374dd024b
+		summarizeBy: none
+		sourceColumn: N° Dossier
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Titre dossier achat'
+		dataType: string
+		lineageTag: 106ca528-4125-4992-8759-1b4ae4d64574
+		summarizeBy: none
+		sourceColumn: Titre dossier achat
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Régions
+		dataType: string
+		lineageTag: cb7f146d-d9b7-40b4-b5d5-07b0be69c0c2
+		summarizeBy: none
+		sourceColumn: Régions
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Départements Concernés'
+		dataType: string
+		lineageTag: 09a13d46-c745-4465-a5cd-e7f0bee5ee71
+		summarizeBy: none
+		sourceColumn: Départements Concernés
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nature d''achat'
+		dataType: string
+		lineageTag: deb4e6a0-63b0-4dd8-94ec-3d84413c7ea5
+		summarizeBy: none
+		sourceColumn: Nature d'achat
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Famille d''achat'
+		dataType: string
+		lineageTag: 9845d124-4d30-4e03-86f9-dfc72f0809f0
+		summarizeBy: none
+		sourceColumn: Famille d'achat
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Catégorie Achats'
+		dataType: string
+		lineageTag: f97a2312-6bd2-4e76-bd8f-d9d8d0e004ef
+		summarizeBy: none
+		sourceColumn: Catégorie Achats
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Seuils
+		dataType: string
+		lineageTag: 36468e5c-5258-4940-91db-27bb538c9850
+		summarizeBy: none
+		sourceColumn: Seuils
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Envoi du dossier de consultation'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 9e77cc46-3b79-4553-ac45-48d1976c32ad
+		summarizeBy: none
+		sourceColumn: Envoi du dossier de consultation
+
+		variation Variation
+			isDefault
+			relationship: 3c7963db-2a70-4423-b145-9e8881f3f9b8
+			defaultHierarchy: LocalDateTable_23303c39-6a2a-412f-8545-662ece778920.'Hiérarchie de dates'
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Date de début souhaitée'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 4df5b6a1-32e3-44a2-ba97-6b3e79af4dab
+		summarizeBy: none
+		sourceColumn: Date de début souhaitée
+
+		variation Variation
+			isDefault
+			relationship: 8b9ea118-9c95-4a1c-95a1-e61d6e1f48a6
+			defaultHierarchy: LocalDateTable_49d0adbc-5e89-4889-b5e5-94e6abd1a87c.'Hiérarchie de dates'
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column geom
+		dataType: string
+		lineageTag: 0efde516-3774-4760-8d5e-0829b678ca93
+		summarizeBy: none
+		sourceColumn: geom
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cout_min
+		dataType: double
+		formatString: #,0\ "€";-#,0\ "€";#,0\ "€"
+		lineageTag: 568c2adb-4be4-4fc3-a951-bf65e020cc31
+		summarizeBy: sum
+		sourceColumn: Cout_min
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cout_max
+		dataType: double
+		formatString: #,0\ "€";-#,0\ "€";#,0\ "€"
+		lineageTag: 19c7a5c6-9b2e-435b-929a-36c219554bb5
+		summarizeBy: sum
+		sourceColumn: Cout_max
+
+		annotation SummarizationSetBy = Automatic
+
+	column Domaine
+		dataType: string
+		lineageTag: 7013c7ed-3d9c-4123-9bfc-f8e4d782318a
+		summarizeBy: none
+		sourceColumn: Domaine
+
+		annotation SummarizationSetBy = Automatic
+
+	column Longitude
+		dataType: double
+		lineageTag: d8cc804c-2725-4379-9655-8e3b99900f18
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: Longitude
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Latitude
+		dataType: double
+		lineageTag: ef641f11-1315-40dd-925c-4c7cebcf30ed
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: Latitude
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition bulletins-des-previsions-de-marches-de-consultations-sncf-reseau = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\Michelle\Documents\SNCF\bulletins-des-previsions-de-marches-de-consultations-sncf-reseau.csv"),[Delimiter=";", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"En-têtes promus" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"Entité Achats ", type text}, {"N° Dossier", type text}, {"Titre dossier achat", type text}, {"Régions", type text}, {"Départements Concernés", type text}, {"Nature d'achat", type text}, {"Famille d'achat", type text}, {"Catégorie Achats", type text}, {"Seuils", type text}, {"Envoi du dossier de consultation", type date}, {"Date de début souhaitée", type date}, {"geom", type text}, {"centroid", type text}}),
+				    #"supprime titres vides" = Table.SelectRows(#"Type modifié", each ([Titre dossier achat] <> "") and ([Départements Concernés] <> "")),
+				    #"domaines (à refaire avec catégorie achats)" = Table.AddColumn(#"supprime titres vides", "Domaine travaux", each if Text.Contains([Titre dossier achat], "caténaire", Comparer.OrdinalIgnoreCase) or Text.Contains([Titre dossier achat], "courant", Comparer.OrdinalIgnoreCase) then "Énergie"
+				else if Text.Contains([Titre dossier achat], "ballast", Comparer.OrdinalIgnoreCase) then "Ballast"
+				else if Text.Contains([Titre dossier achat], "rail", Comparer.OrdinalIgnoreCase) then "Rail"
+				else if Text.Contains([Titre dossier achat], "signalisation", Comparer.OrdinalIgnoreCase) then "Signalisation"
+				else if Text.Contains([Titre dossier achat], "étanchéité", Comparer.OrdinalIgnoreCase) or Text.Contains([Titre dossier achat], "hydraulique", Comparer.OrdinalIgnoreCase) then "Hydraulique"
+				else if Text.Contains([Titre dossier achat], "Élagage", Comparer.OrdinalIgnoreCase) or Text.Contains([Titre dossier achat], "débroussaillage", Comparer.OrdinalIgnoreCase) or Text.Contains([Titre dossier achat], "désherbage", Comparer.OrdinalIgnoreCase) then "Végétation"
+				else if Text.Contains([Titre dossier achat], "Pont", Comparer.OrdinalIgnoreCase) or Text.Contains([Titre dossier achat], "tunnel", Comparer.OrdinalIgnoreCase) or Text.Contains([Titre dossier achat], "viaduc", Comparer.OrdinalIgnoreCase) or Text.Contains([Titre dossier achat], "mur de soutènement", Comparer.OrdinalIgnoreCase) then "Ouvrages d'Art"
+				else if [Titre dossier achat] = null then "Autre"
+				else "Autre"),
+				    #"Lignes filtrées" = Table.SelectRows(#"domaines (à refaire avec catégorie achats)", each true),
+				    #"cout max" = Table.AddColumn(#"Lignes filtrées", "Cout_max (k€)", each if Text.Contains([Seuils], "A-") then 200/1000 else if Text.Contains([Seuils], "B-") then 1 else if Text.Contains([Seuils], "C-") then 5 else if Text.Contains([Seuils], "D-") then 15 else if Text.Contains([Seuils], "E-") then 40 else if Text.Contains([Seuils], "F-") then 80 else if Text.Contains([Seuils], "G-") then 1800 else 0),
+				    #"Lignes filtrées1" = Table.SelectRows(#"cout max", each true),
+				    #"cout min" = Table.AddColumn(#"Lignes filtrées1", "Cout_min (k€)", each if Text.Contains([Seuils], "A-") then 0 else if Text.Contains([Seuils], "B-") then 200/1000 else if Text.Contains([Seuils], "C-") then 1 else if Text.Contains([Seuils], "D-") then 5 else if Text.Contains([Seuils], "E-") then 15 else if Text.Contains([Seuils], "F-") then 40 else if Text.Contains([Seuils], "G-") then 80 else "erreur"),
+				    #"Colonne multipliée" = Table.TransformColumns(#"cout min", {{"Cout_min (k€)", each _ * 1000000, type number}}),
+				    #"Colonne multipliée1" = Table.TransformColumns(#"Colonne multipliée", {{"Cout_max (k€)", each _ * 1000000, type number}}),
+				    #"Colonnes renommées" = Table.RenameColumns(#"Colonne multipliée1",{{"Cout_min (k€)", "Cout_min"}, {"Cout_max (k€)", "Cout_max"}}),
+				    #"Requêtes fusionnées" = Table.NestedJoin(#"Colonnes renommées", {"Famille d'achat"}, mapping_domaines, {"Famille d'achat "}, "mapping_domaines", JoinKind.LeftOuter),
+				    #"mapping_domaines développé" = Table.ExpandTableColumn(#"Requêtes fusionnées", "mapping_domaines", {"Domaine"}, {"Domaine"}),
+				    #"Valeur remplacée" = Table.ReplaceValue(#"mapping_domaines développé",null,"Hybride",Replacer.ReplaceValue,{"Domaine"}),
+				    #"Fractionner la colonne par délimiteur" = Table.SplitColumn(#"Valeur remplacée", "centroid", Splitter.SplitTextByEachDelimiter({","}, QuoteStyle.Csv, false), {"centroid.1", "centroid.2"}),
+				    #"Type modifié avec paramètres régionaux" = Table.TransformColumnTypes(#"Fractionner la colonne par délimiteur", {{"centroid.1", type number}}, "en-US"),
+				    #"Type modifié avec paramètres régionaux1" = Table.TransformColumnTypes(#"Type modifié avec paramètres régionaux", {{"centroid.2", type number}}, "en-US"),
+				    #"Colonnes renommées1" = Table.RenameColumns(#"Type modifié avec paramètres régionaux1",{{"centroid.1", "Longitude"}, {"centroid.2", "Latitude"}}),
+				    #"Colonnes supprimées" = Table.RemoveColumns(#"Colonnes renommées1",{"Domaine travaux"})
+				in
+				    #"Colonnes supprimées"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

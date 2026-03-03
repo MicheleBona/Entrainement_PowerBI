@@ -1,0 +1,2940 @@
+cultureInfo fr-FR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "bulletin-des-prevision-de-march-de-consultation-sncf-reseau": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "bulletins des previsions de marches de consultations sncf reseau": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "bulletins des previsions de marches de consultations sncf reseau": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "bulletin des prevision de march de consultation sncf reseau": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.entité_achat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Entité Achats "
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "entité achat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "entité achat": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Entité Achats ": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Entité Achats": {
+			            "State": "Generated",
+			            "Weight": 0.96029999999999993
+			          }
+			        },
+			        {
+			          "Entité Achats": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.96029999999999993
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.n_dossier": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "N° Dossier"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "n° dossier": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "n° dossier": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "n° folder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "n° database": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "n° file": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "n° record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "n° report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "n° profile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.titre_dossier_achat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Titre dossier achat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "titre dossier achat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "titre dossier achat": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.région": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Régions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "région": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "région": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.départements_concerné": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Départements Concernés"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "départements concerné": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "départements concerné": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "département concerné": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.nature_dachat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Nature d'achat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nature d'achat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nature d'achat": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.famille_dachat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Famille d'achat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "famille d'achat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "famille d'achat": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.catégorie_achat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Catégorie Achats"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "catégorie achat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "catégorie achat": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.seuil": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Seuils"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "seuil": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "seuil": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Envoi du dossier de consultation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "envoi du dossier de consultation": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "envoi du dossier de consultation": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "envoi du dossier de discussion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "envoi du dossier de session": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "envoi du dossier de talk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "envoi du dossier de conference": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "envoi du dossier de meeting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "envoi du dossier de sounding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "VariationSource": "Envoi du dossier de consultation",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hiérarchie de date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hiérarchie de date": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hiérarchie de moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hiérarchie de period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.année": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "VariationSource": "Envoi du dossier de consultation",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Année"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "année": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "année": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "envoi du dossier de consultation année": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "envoi du dossier de consultation année": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "VariationSource": "Envoi du dossier de consultation",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "trimestre": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "envoi du dossier de consultation trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "envoi du dossier de consultation trimestre": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "VariationSource": "Envoi du dossier de consultation",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Mois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mois": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "envoi du dossier de consultation mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "envoi du dossier de consultation mois": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.jour": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "VariationSource": "Envoi du dossier de consultation",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Jour"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "jour": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "envoi du dossier de consultation jour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "envoi du dossier de consultation jour": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Date de début souhaitée"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date de début souhaitée": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date de début souhaitée": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment de début souhaitée": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "period de début souhaitée": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "VariationSource": "Date de début souhaitée",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hiérarchie de date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hiérarchie de date": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hiérarchie de moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hiérarchie de period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.année": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "VariationSource": "Date de début souhaitée",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Année"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "année": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "année": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date de début souhaitée année": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date de début souhaitée année": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment de début souhaitée année": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "period de début souhaitée année": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "VariationSource": "Date de début souhaitée",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "trimestre": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date de début souhaitée trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date de début souhaitée trimestre": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment de début souhaitée trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "period de début souhaitée trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "VariationSource": "Date de début souhaitée",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Mois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mois": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date de début souhaitée mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date de début souhaitée mois": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment de début souhaitée mois": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "period de début souhaitée mois": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.jour": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "VariationSource": "Date de début souhaitée",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Jour"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "jour": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date de début souhaitée jour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date de début souhaitée jour": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment de début souhaitée jour": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "period de début souhaitée jour": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.geom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "geom"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "geom": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "geom": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.cout_min": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Cout_min"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cout min": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cout min": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Cout_min": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cout minimum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.cout_max": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Cout_max"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cout max": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cout max": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Cout_max": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cout maximum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.domaine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Domaine"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "domaine": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "domaine": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.nombre_de_chantiers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Nombre de chantiers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre de chantiers": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nombre de chantiers": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.budget_total_max": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Budget total max"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "budget total max": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "budget total max": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total max": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total max": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "budget total maximum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total maximum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "account total max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "cost total max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finance total max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "budget aggregate max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "budget overall max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "aggregate max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall max": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "mapping_domaine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mapping_domaines"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mapping domaine": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mapping domaine": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mapping_domaines": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mapping_domaine.famille_dachat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mapping_domaines",
+			          "ConceptualProperty": "Famille d'achat "
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "famille d'achat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "famille d'achat": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Famille d'achat ": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mapping_domaine.domaine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mapping_domaines",
+			          "ConceptualProperty": "Domaine"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "domaine": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "domaine": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.longitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Longitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "longitude": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.latitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau",
+			          "ConceptualProperty": "Latitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "latitude": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "leeway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "autonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "liberty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_année_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.année": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.année"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.année"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "années_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_années"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_années1"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_hiérarchie_de_date_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_jour": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.jour": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.jour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.jour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_jour"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_hiérarchie_de_date_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_moises"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_hiérarchie_de_date_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_trimestres"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_hiérarchie_de_date_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_année": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.année": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.année"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_années"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_has_hiérarchie_de_date": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.hiérarchie_de_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_de_début_souhaitées_have_hiérarchie_de_dates"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_mois_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_jour": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.jour": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.jour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.jour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_have_jour"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.jour"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jour_have_moises"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.jour"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jour_are_in_moises"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_trimestre_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_moises"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_année_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.année": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.année"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.année"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "années_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_années1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_années"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_hiérarchie_de_date_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_jour": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.jour": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.jour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.jour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_jour1"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_hiérarchie_de_date_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_moises1"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_hiérarchie_de_date_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_hiérarchie_de_date_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_année": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.année": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.année"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_années1"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_envoi_du_dossier_de_consultation_has_hiérarchie_de_date": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation.hiérarchie_de_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "envoi_du_dossier_de_consultations_have_hiérarchie_de_dates"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_mapping_domaine": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "mapping_domaine": {
+			          "Target": {
+			            "Entity": "mapping_domaine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "mapping_domaine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_mapping_domaines"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mapping_domaine"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mapping_domaines_have_bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_latitude": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.latitude": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.latitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.latitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_latitudes"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_longitude": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.longitude": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.longitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.longitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_longitudes"
+			        }
+			      ]
+			    },
+			    "mapping_domaine_has_domaine": {
+			      "Binding": {
+			        "ConceptualEntity": "mapping_domaines"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mapping_domaine": {
+			          "Target": {
+			            "Entity": "mapping_domaine"
+			          }
+			        },
+			        "mapping_domaine.domaine": {
+			          "Target": {
+			            "Entity": "mapping_domaine.domaine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mapping_domaine"
+			            },
+			            "Object": {
+			              "Role": "mapping_domaine.domaine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mapping_domaines_have_domaines"
+			        }
+			      ]
+			    },
+			    "mapping_domaine_has_famille_dachat": {
+			      "Binding": {
+			        "ConceptualEntity": "mapping_domaines"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mapping_domaine": {
+			          "Target": {
+			            "Entity": "mapping_domaine"
+			          }
+			        },
+			        "mapping_domaine.famille_dachat": {
+			          "Target": {
+			            "Entity": "mapping_domaine.famille_dachat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mapping_domaine"
+			            },
+			            "Object": {
+			              "Role": "mapping_domaine.famille_dachat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mapping_domaines_have_famille_dachats"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_budget_total_max": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.budget_total_max": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.budget_total_max"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.budget_total_max"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_budget_total_max"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_nombre_de_chantiers": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.nombre_de_chantiers": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.nombre_de_chantiers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.nombre_de_chantiers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_nombre_de_chantiers"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_domaine": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.domaine": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.domaine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.domaine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_domaines"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_cout_max": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.cout_max": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.cout_max"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.cout_max"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_cout_maxes"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.cout_max"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cout_max_indicates_how_expensive_bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_are"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_cout_min": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.cout_min": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.cout_min"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.cout_min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_cout_mins"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.cout_min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cout_min_indicates_how_expensive_bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_are"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_geom": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.geom": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.geom"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.geom"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_geoms"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_date_de_début_souhaitée": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_date_de_début_souhaitées"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_envoi_du_dossier_de_consultation": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.envoi_du_dossier_de_consultation"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_envoi_du_dossier_de_consultations"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_seuil": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.seuil": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.seuil"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.seuil"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_seuils"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_catégorie_achat": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.catégorie_achat": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.catégorie_achat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.catégorie_achat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_catégorie_achats"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_nature_dachat": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.nature_dachat": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.nature_dachat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.nature_dachat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_nature_dachats"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_départements_concerné": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.départements_concerné": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.départements_concerné"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.départements_concerné"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_départements_concerné"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_région": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.région": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.région"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.région"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_régions"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_titre_dossier_achat": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.titre_dossier_achat": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.titre_dossier_achat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.titre_dossier_achat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_titre_dossier_achats"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_n_dossier": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.n_dossier": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.n_dossier"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.n_dossier"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_n_dossiers"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_has_entité_achat": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.entité_achat": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.entité_achat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.entité_achat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseaus_have_entité_achats"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_trimestre_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_moises1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_mois_has_bulletinsdesprevisionsdemarchesdeconsultationssncfreseau_date_de_début_souhaitée_jour": {
+			      "Binding": {
+			        "ConceptualEntity": "bulletins-des-previsions-de-marches-de-consultations-sncf-reseau"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois"
+			          }
+			        },
+			        "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.jour": {
+			          "Target": {
+			            "Entity": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.jour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.jour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_have_jour1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.jour"
+			            },
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jour_have_moises1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.jour"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "bulletinsdesprevisionsdemarchesdeconsultationssncfreseau.date_de_début_souhaitée.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jour_are_in_moises1"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

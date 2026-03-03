@@ -1,0 +1,48 @@
+table 'Choix de l''analyse'
+	lineageTag: e57c5a5a-2362-4f64-942b-515dbd36f3df
+
+	column 'Choix de l''analyse'
+		lineageTag: 20addb53-5265-410e-9195-c82edba6cc7d
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Choix de l''analyse Commande'
+
+		relatedColumnDetails
+			groupByColumn: 'Choix de l''analyse Champs'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Choix de l''analyse Champs'
+		isHidden
+		lineageTag: acb75f19-8fbd-4c79-91b2-a69765a53f27
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Choix de l''analyse Commande'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Choix de l''analyse Commande'
+		isHidden
+		formatString: 0
+		lineageTag: 556ba884-dd96-4a22-857f-337bfcd7843e
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Choix de l''analyse' = calculated
+		mode: import
+		source =
+				{
+				    ("Budget max", NAMEOF('bulletins-des-previsions-de-marches-de-consultations-sncf-reseau'[Budget total max]), 0),
+				    ("Nombre de chantiers", NAMEOF('bulletins-des-previsions-de-marches-de-consultations-sncf-reseau'[Nombre de chantiers]), 1)
+				}
+
+	annotation PBI_Id = 8d71ca3a305a4905b6aefe03799d7b5a
+
