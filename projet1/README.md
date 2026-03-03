@@ -28,7 +28,8 @@ Création de mesures dynamiques pour piloter le rapport :
 * **KPI Cards :** Affichage des chiffres clés (Total M€, Nombre de projets) synchronisés avec les filtres.
 
 ## 📊 Aperçu du Dashboard
-*(Note : Pense à ajouter ici une capture d'écran ou un GIF de ton rapport !)*
+![Results of kpi page](kpi_video.gif)
+![Results of Carte page](carte_video.gif)
 
 ## 📂 Structure du dépôt
 * `chantiers_sncf.pbix` : Le fichier Power BI complet (utilisable après téléchargement).
