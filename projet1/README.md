@@ -28,6 +28,7 @@ Création de mesures dynamiques pour piloter le rapport :
 * **KPI Cards :** Affichage des chiffres clés (Total M€, Nombre de projets) synchronisés avec les filtres.
 
 ## 📊 Aperçu du Dashboard
+*Cliquer sur les vidéos si elles ne se lancent pas automatiquement*
 ![Results of kpi page](kpi_video.gif)
 ![Results of Carte page](carte_video.gif)
 
